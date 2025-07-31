@@ -1,0 +1,83 @@
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f2f2f2;
+  padding: 30px;
+  text-align: center;
+}
+
+.quiz-container {
+  background-color: white;
+  max-width: 600px;
+  margin: auto;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  margin-bottom: 30px;
+  color: #333;
+}
+
+#questionBox {
+  font-size: 20px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+#answersBox {
+  text-align: left;
+  margin: 20px 0;
+}
+
+#answersBox label {
+  display: block;
+  background-color: #f9f9f9;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#answersBox label:hover {
+  background-color: #e0e0e0;
+}
+
+input[type="radio"] {
+  margin-right: 10px;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #5c6bc0;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #3949ab;
+}
+
+#timer {
+  margin-top: 10px;
+  font-size: 18px;
+  color: #333;
+}
+
+#resultBox h2 {
+  margin-bottom: 20px;
+  color: #2e7d32;
+}
